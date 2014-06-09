@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="apk" build-on-make="true" name="app-signed">
+    <output-path>$PROJECT_DIR$/out/artifacts/app_signed</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyAlias" value="directi" />
+        <option name="keyPassword" value="ZGlyZWN0aQ==" />
+        <option name="keyStorePassword" value="ZGlyZWN0aQ==" />
+        <option name="keyStoreUrl" value="file://$PROJECT_DIR$/keyStore.jks" />
+        <option name="proGuardCfgFiles">
+          <list>
+            <option value="file://%MODULE_SDK_HOME%/tools/proguard/proguard-android.txt" />
+          </list>
+        </option>
+        <option name="signingMode" value="RELEASE_SIGNED" />
+      </options>
+    </properties>
+    <root id="archive" name="app-signed.apk">
+      <element id="android-final-package" facet="CI_Test/android/Android" />
+    </root>
+  </artifact>
+</component>

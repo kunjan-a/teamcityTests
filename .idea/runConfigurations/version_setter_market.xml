@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="version setter market" type="PythonConfigurationType" factoryName="Python">
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="PYTHONUNBUFFERED" value="1" />
+    </envs>
+    <option name="SDK_HOME" value="/usr/bin/python" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CI_Test" />
+    <option name="IS_MODULE_SDK" value="false" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+    <module name="" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/versionSetter.py" />
+    <option name="PARAMETERS" value="-m AndroidManifest.xml -t market" />
+    <RunnerSettings RunnerId="PythonRunner" />
+    <ConfigurationWrapper RunnerId="PythonRunner" />
+    <method />
+  </configuration>
+</component>
