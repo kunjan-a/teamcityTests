@@ -12,6 +12,6 @@ public class MyActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        ToastMaker.showToast(getApplicationContext(), "Welcome");
+        ToastMaker.showToast(getApplicationContext(), "Welcome ");
     }
 }
