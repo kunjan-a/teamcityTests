@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="apk" build-on-make="true" name="app-unsigned">
+    <output-path>$PROJECT_DIR$/out/artifacts/app_unsigned</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyStoreUrl" value="file://" />
+        <option name="proGuardCfgFiles">
+          <list>
+            <option value="file://%MODULE_SDK_HOME%/tools/proguard/proguard-android.txt" />
+          </list>
+        </option>
+      </options>
+    </properties>
+    <root id="archive" name="app-unsigned.apk">
+      <element id="android-final-package" facet="CI_Test/android/Android" />
+    </root>
+  </artifact>
+</component>
